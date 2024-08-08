@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.header_guides {
+    margin: 3vh 10vh;
+    font-size: 2.3vh;
+    color: var(--pallete_color_3);
+    position: relative;
+}
+.header_guides:hover {
+    cursor: pointer;
+}
+
+.header_guides::after {
+    content: '';
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    translate: -50% 0;
+
+    transition: 0.3s;
+    
+    width: 0;
+    background-color: var(--pallete_color_3);
+    height: 2px;
+}
+
+.header_guides:hover::after {
+    width: 100%;
+}

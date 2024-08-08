@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Hidden Div</title>
+    <style>
+        #hiddenDiv {
+            display: none; /* Initially hidden */
+            background-color: lightblue;
+            padding: 20px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <button id="showButton">Show Div</button>
+    <div id="hiddenDiv">This is a hidden div!</div>
+
+    <script>
+        // JavaScript to handle the button click event
+        document.getElementById('showButton').addEventListener('click', function() {
+            var hiddenDiv = document.getElementById('hiddenDiv');
+            hiddenDiv.style.display = 'block'; // Change display to 'block' to make the div visible
+        });
+    </script>
+</body>
+</html>

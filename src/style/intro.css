@@ -1,0 +1,40 @@
+#name_apresentation {
+    font-size: 8vh;
+    top: 40%;
+    left: 35%;
+
+    color: var(--pallete_color_5);
+    z-index: 1;
+}
+
+#background {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+#apresentation {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#apresentation_text {
+    color: var(--pallete_color_2);
+    font-size: 2vh;
+    z-index: 1;
+}
+
+#seta_background {
+    align-self: flex-end;
+    width: 10vh;
+    margin-bottom: 4vh;
+    
+}
