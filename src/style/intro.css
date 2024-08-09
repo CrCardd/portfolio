@@ -33,8 +33,17 @@
 }
 
 #seta_background {
-    align-self: flex-end;
     width: 10vh;
     margin-bottom: 4vh;
-    
+}
+
+#button_arrow {
+    background-color: transparent;
+    border: none;
+
+    align-self: flex-end;
+}
+
+#button_arrow:hover {
+    cursor: pointer;
 }
