@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/style/intro.css">
     <link rel="stylesheet" href="./src/style/main.css">
     <link rel="stylesheet" href="./src/style/information.css">
+    <link rel="stylesheet" href="./src/style/profile.css">
     <script src="./src/js/event.js"></script>
     
 </head>
@@ -15,8 +16,14 @@
     
     <header>
         <div class="header_guides">HOME</div>
-        <div class="header_guides">ABOUT</div>
-        <div class="header_guides">RESUME</div>
+
+        <div class="header_guides"> 
+            <a href="#profile_informations">
+                ABOUT
+            </a>
+        </div>
+
+        <div class="header_guides">CONTACT</div>
         <div class="header_guides"> WORKS</div>
     </header>
     
@@ -24,23 +31,115 @@
         
         <div id="background">
             <div id="apresentation">
-                <div id="name_apresentation">SOY CRISTIANO</div>
+                <div id="name_apresentation">I'M CRISTIAN</div>
                 <div id="apresentation_text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing <br>
                     elit. Eos explicabo veritatis, hic voluptate magnam veniam <br>
                     rem, placeat quod blanditiis incidunt, dolore voluptatem <br>
-                    optio  quo obcaecati? Vero esse ducimus rerum earum!
+                    optio  quo obcaecati? Vero esse ducimus rerum earum! <br>
                 </div>
             </div>
-            <button id="button_arrow">
+            <button id="button_arrow" href="#informations">
                 <img src="./src/img/seta.png" alt="" id="seta_background">
             </button>
         </div>
         
-        <!-- <div class="spacer"></div> -->
 
         <div id="informations">
-            <h1>TESTE ALALLALALA</h1>
+            <section id="profile">
+                
+                <div id="div_my_picture">
+                    <img src="./src/img/profile.png" alt="" id="my_picture">
+                </div>
+
+                <div id="profile_informations">
+                    <div id="profile_text">
+                        <div id="profile_name">Cristian</div>
+                        <div id="profile_about">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum impedit consectetur <br>
+                            autem eius odio vitae explicabo? In, magni quo corporis harum cumque, minima quasi voluptas <br>
+                            et porro voluptatibus, maiores quae?
+                            <br><br><br>
+                            SKILLS:
+                        </div>
+                    </div>
+
+                    <div id="profile_skills">
+
+                        <div class="skill">
+                            <img src="./src/img/java_icon.svg" alt="java" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/python_icon.png" alt="python" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/c_icon.png" alt="C" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/sqlserver_icon.svg" alt="SQLServer" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/mysql_icon.png" alt="MySQL" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/excel_icon.webp" alt="Excel" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/html_icon.svg" alt="HTML" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/javascript_icon.svg" alt="JavaScript" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/powerbi_icon.png" alt="PowerBI" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                        <div class="skill">
+                            <img src="./src/img/css_icon.svg" alt="CSS" class="skill_icon">
+                            LEVEL
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <section id="contact">
+                <div>
+
+                </div>
+                    <a href="https://github.com/CrCardd">
+                        <img src="/src/img/github_icon.svg" alt="">
+                    </a>
+                <div>
+                    <a href="">
+                        <img src="./src/img/gmail_icon.png" alt="">
+                    </a>
+                </div>
+
+                <div>
+
+                </div>
+            </section>
         </div>
 
     </main>

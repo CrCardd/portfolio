@@ -10,12 +10,18 @@ header {
     height: 10vh;
 }
 
+a {
+    text-decoration: none;
+    color: var(--pallete_color_3);    
+}
+
 .header_guides {
     margin: 3vh 10vh;
     font-size: 2.3vh;
     color: var(--pallete_color_3);
     position: relative;
 }
+
 .header_guides:hover {
     cursor: pointer;
 }
@@ -36,4 +42,8 @@ header {
 
 .header_guides:hover::after {
     width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }

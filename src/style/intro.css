@@ -27,8 +27,8 @@
 }
 
 #apresentation_text {
-    color: var(--pallete_color_2);
-    font-size: 2vh;
+    color: var(--pallete_color_3);
+    font-size:22px;
     z-index: 1;
 }
 
