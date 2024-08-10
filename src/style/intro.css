@@ -1,7 +1,5 @@
 #name_apresentation {
     font-size: 8vh;
-    top: 40%;
-    left: 35%;
 
     color: var(--pallete_color_5);
     z-index: 1;
@@ -11,24 +9,24 @@
     width: 100%;
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #apresentation {
-    position: absolute;
-    left: 35%;
-    top: 40%;
 
+    margin-top: 10%;
+    height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     
 }
 
 #apresentation_text {
     color: var(--pallete_color_3);
-    font-size:22px;
+    font-size:3vh;
     z-index: 1;
 }
 
@@ -40,8 +38,7 @@
 #button_arrow {
     background-color: transparent;
     border: none;
-
-    align-self: flex-end;
+    margin-top: 10%;
 }
 
 #button_arrow:hover {

@@ -1,34 +1,33 @@
 #profile {
     display: flex;
-    width: 70%;
+    justify-content: center;
     height: 80vh;
-    margin-top: 20vh;
-    background-color: var(--pallete_color_4);
-    border-radius: 40px;
+    margin-top: 35vh;
+    width: 100%;
 
 }
 
 #div_my_picture, #profile_informations {
-    margin-top: 20vh;
-    
     height: 60vh;
 }
 
 #div_my_picture {
-    margin-left: 20vh;
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
 }
 
 #my_picture {
-    width:80%;
     border-radius: 50%;
-    height: 65%;
-    align-self: center;
-    border: 20px solid var(--pallete_color_3);
+    height: 80%;
+    width: 80%;
+    border: 1vh solid var(--pallete_color_3);
 }
 
 #profile_informations {
-    padding: 20px;
+    margin-left: 10vh;
+
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -43,29 +42,23 @@
 
 #profile_skills {
     display: flex;
+    justify-content: space-around;
 }
 
 
 #profile_name {
-    font-size: 70px;
+    font-size: 9vh;
     color: var(--pallete_color_6);
 }
 
 #profile_about {
-    font-size: 20px;
+    font-size: 3vh;
     color: var(--pallete_color_5);
 }
 
 
 
 .skill_icon {
-    max-height: 80%;
-    max-width:50%;
-}
-
-.skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: var(--pallete_color_6);
+    height: 10vh;
+    width: 10vh;
 }
